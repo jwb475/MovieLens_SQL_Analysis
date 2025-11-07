@@ -264,15 +264,15 @@ The sparse rating matrix means most users have rated only a small fraction of av
 
 ### 7.2 Popular vs Unpopular Movies
 
-**Finding**: [Distribution of ratings across movies]
+**Finding**:  User attention is heavily concentrated on a small subset of popular movies, following a classic power law distribution.
 
-- Movies with 100+ ratings: X
-- Movies with 50-99 ratings: Y
-- Movies with 10-49 ratings: Z
-- Movies with <10 ratings: W
+- Movies with 100+ ratings: 338 movies (20.1% of catalog) receive 64,819 ratings (64.82% of all ratings)
+- Movies with 50-99 ratings: 265 movies (15.76%) receive 18,896 ratings (18.9%)
+- Movies with 10-49 ratings: 549 movies (32.64%) receive 14,238 ratings (14.24%)
+- Movies with <10 ratings: 530 movies (31.51%) receive only 2,047 ratings (2.05%)
 
 **Insight**:
-A small number of blockbuster movies receive the majority of attention, while many movies remain relatively unknown. This long-tail distribution is typical of entertainment platforms.
+This is a textbook example of the 80/20 rule (Pareto principle) in action. Just 20% of movies capture nearly 65% of all user attention. Meanwhile, almost one-third of the catalog (530 movies) is virtually ignored, accounting for only 2% of ratings. This creates a "rich get richer" dynamic where popular movies continue to attract more views and ratings, while hidden gems remain undiscovered.
 
 ---
 

@@ -110,3 +110,44 @@ FROM (
 ) user_activity
 GROUP BY user_segment
 ORDER BY MIN(rating_count) DESC;
+
+-- Distribution of Ratings Across Movies
+SELECT 
+    CASE 
+        WHEN rating_count >= 100 THEN '100+ ratings'
+        WHEN rating_count >= 50 THEN '50-99 ratings'
+        WHEN rating_count >= 10 THEN '10-49 ratings'
+        ELSE '<10 ratings'
+    END as rating_bracket,
+    COUNT(*) as movie_count,
+    ROUND(COUNT(*) * 100.0 / (SELECT COUNT(DISTINCT movie_id) FROM ratings), 2) as percentage
+FROM (
+    SELECT 
+        movie_id,
+        COUNT(*) as rating_count
+    FROM ratings
+    GROUP BY movie_id
+) movie_ratings
+GROUP BY rating_bracket
+ORDER BY MIN(rating_count) DESC;
+
+-- What percentage of total ratings go to each bracket?
+SELECT 
+    CASE 
+        WHEN rating_count >= 100 THEN '100+ ratings'
+        WHEN rating_count >= 50 THEN '50-99 ratings'
+        WHEN rating_count >= 10 THEN '10-49 ratings'
+        ELSE '<10 ratings'
+    END as rating_bracket,
+    COUNT(*) as movie_count,
+    SUM(rating_count) as total_ratings_in_bracket,
+    ROUND(SUM(rating_count) * 100.0 / (SELECT COUNT(*) FROM ratings), 2) as percentage_of_all_ratings
+FROM (
+    SELECT 
+        movie_id,
+        COUNT(*) as rating_count
+    FROM ratings
+    GROUP BY movie_id
+) movie_ratings
+GROUP BY rating_bracket
+ORDER BY MIN(rating_count) DESC;
