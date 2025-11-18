@@ -191,7 +191,7 @@ LIMIT 10;
 - **GitHub**: [jwb475](https://github.com/jwb475)
 - **LinkedIn**: [Jin Wook Baek](https://www.linkedin.com/in/jin-wook-baek-jwb475)
 - **Email**: jwb475@nyu.edu
-- **Portfolio**: [Your Portfolio Link]
+- **Portfolio**: [https://jwb475.github.io/]
 
 ---
 
