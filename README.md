@@ -69,19 +69,18 @@ ratings
 ## 💡 Key Findings
 
 ### User Behavior Insights
-1. **[Your finding #1]** - Example: "Users aged 25-34 are the most active demographic, accounting for 35% of all ratings"
-2. **[Your finding #2]** - Example: "Male users rate 40% more movies on average than female users"
-3. **[Your finding #3]** - Example: "Students and engineers are the most active occupations"
+1. **Users are highly critical:** - The platform has a strong critical bias. Over 55% of all 100,000 ratings are 1 or 2 stars, while only 17.5% are positive 4 or 5-star ratings.
+2. **Activity declines with age, generosity increases:** - Users under 25 are the most active (rating ~115-120 movies on average), but users aged 35-54 are the most generous, giving the highest average scores (3.63-3.65).
+3. **Students are the dominant demographic:** - Students are the most active occupation by a wide margin, accounting for 196 users and nearly 22,000 total ratings.
 
 ### Genre Insights
-1. **[Your finding #1]** - Example: "Drama is the most-rated genre with over 25,000 ratings"
-2. **[Your finding #2]** - Example: "Action-Comedy combinations receive higher average ratings than pure action movies"
-3. **[Your finding #3]** - Example: "Sci-Fi movie ratings have increased steadily from the 1970s to 1990s"
+1. **Drama is the platform's cornerstone:** - Drama is both the most popular (39,895 ratings) and one of the most-loved (3.69 average score) genres, making it the most successful all-rounder.
+2. **Niche genres are the highest-rated:** - The highest average scores belong to niche genres like Film-Noir (3.92) and War (3.82), indicating a passionate fanbase for "prestige" films.
+3. **Genre-blending matters:** - Blending Drama with Romance (3.72 avg) creates a highly-rated combination. However, blending Comedy with Romance (3.45 avg) scores significantly lower, reinforcing that Comedy is a divisive, lower-rated genre.
 
 ### Surprising Discoveries
-- **[Interesting pattern you found]**
-- **[Unexpected correlation]**
-- **[Contrarian insight]**
+- **Zero gender bias in generosity:** - Despite male users outnumbering female users 2.5-to-1 and rating more often, both genders have the exact same average rating score (3.53).
+- **Controversial films are clear:** - Movies like Natural Born Killers are clearly divisive, with a low average score (2.95) but one of the highest rating variances, confirming they split the audience.
 
 ## 🛠️ Technical Skills Demonstrated
 
@@ -194,7 +193,7 @@ LIMIT 10;
 - **GitHub**: [jwb475](https://github.com/jwb475)
 - **LinkedIn**: [Jin Wook Baek](https://www.linkedin.com/in/jin-wook-baek-jwb475)
 - **Email**: jwb475@nyu.edu
-- **Portfolio**: [Github Portfolio](https://github.com/jwb475/Data-Analysis-Portfolio)
+- **Portfolio**: [Your Portfolio Link]
 
 ---
 
