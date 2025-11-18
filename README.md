@@ -112,8 +112,6 @@ MovieLens-SQL-Analysis/
 │   ├── 03_advanced_user_analysis.sql # Advanced user insights
 │   └── 04_genre_analysis.sql         # Genre and recommendation queries
 ├── import_data.py                     # Python script to load data
-└── results/                           # Screenshots of query results
-    └── [screenshots here]
 ```
 
 ## 🚀 How to Run This Project
